@@ -3,7 +3,7 @@
   tasks:
     - name: Create an object
       ansible.builtin.lineinfile:
-        path: artifact.txt
+        path: /data/artifacts/results/artifact.txt
         line: Hello there
         create: yes
         
