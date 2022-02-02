@@ -7,4 +7,4 @@
         line: Hello there
         create: yes
         
-    - shell: 'microdnf install findutils ; find / -name "result"' 
+    - shell: ls -R 
