@@ -8,3 +8,7 @@
         create: yes
         
     - shell: ls -R ../
+    
+    - name: Pause for 5 minutes to build app cache
+      pause:
+        minutes: 5
